@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="../logo.JPG" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>על העמותה</title>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- jQuery script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- JavaScript script -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- Bootstrap -->
+    <link href="../CSS/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Footer Social icons -->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <!--/ Header and Fotter -->
+    <link rel="stylesheet" href="../CSS/headerFotter.css">
+    <!--/ custom css -->
+    <link rel="stylesheet" href="../CSS/aboutCustom.css">
+
+    <script>
+        function trueResults(id){ 
+    document.getElementById(id).style.background="#32ff2b";
+    document.getElementById(id).style.color="white";
+    window.setTimeout(function(){
+    (document.getElementById(id).style.background="gray")}, 10000);
+}
+        function falseResult(id){
+    document.getElementById(id).style.background="red";
+    document.getElementById(id).style.color="white";
+    window.setTimeout(function(){
+    (document.getElementById(id).style.background="gray")}, 1000);
+
+}  
+</script>
+</head>
+
+<body>
+    <!--------NAV---------->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../index.html">Smartedu</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example">
+                <ul class="nav navbar-nav">
+                    <li><a href="Calendar.htm">מערכת שעות</a></li>
+                    <li><a href="Courses.html">פירוט קורסים</a></li>
+                    <li><a href="Signcourse.html">רישום לקורס</a></li>
+                    <li><a href="about.html">על העמותה</a></li>
+                    <li><a href="FAQ.html">FAQ</a></li>
+                    <li class="dropdown">
+                    </li>
+                </ul>
+
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+
+    <!-------------MAIN--------------->
+
+    <ol class="breadcrumb" style="background-color:white;">
+        <li class="breadcrumb-item" style="color:blue;"><a href="../index.html">Home</a></li>
+        <li class="breadcrumb-item active">About</li>
+    </ol>
+
+    <div class="container-fluid">
+
+        <h1> חינוך לפסגות </h1>
+
+        <div class="row">
+
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+
+                <aside title="aside quiestions">
+                    <h2>שאלות על העמותה</h2>
+                    <div class="containerM">
+                        <div class="ask"><b>האם יש 8 מרכזי חינוך באזור תל אביב</b><br><br>
+                            <div style="text-align: left">
+
+
+                            </div>
+                        </div>
+
+                        <div class="clear"></div>
+                        <input type="button" id="true1" onClick="trueResults(id);" class="question" value="Yes">
+                        <input type="button" id="false1" onClick="falseResult(id);" class="question" value="No">
+                    </div>
+                    <div class="containerM">
+                        <div class="ask"><b>מתי עמותת חינוך לפסגות הוקמה</b><br><br>
+                            <div style="text-align: left">
+
+
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                        <input type="button" id="false3" onClick="falseResult(id);" class="question" value="2005">
+                        <input type="button" id="true2" onClick="trueResults(id);" class="question" value="1999">
+                        <input type="button" id="false4" onClick="falseResult(id);" class="question" value="2015 ">
+
+
+                    </div>
+
+                    <div class="containerM">
+                        <div class="ask"><b>כמה מרכזי לימוד ישנם ברחבי הארץ</b><br><br>
+                            <div style="text-align: left">
+
+
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                        <input type="button" id="false5" onClick="falseResult(id);" class="question" value="25">
+                        <input type="button" id="false6" onClick="falseResult(id);" class="question" value="70">
+                        <input type="button" id="true3" onClick="trueResults(id);" class="question" value="46">
+
+
+                    </div>
+                </aside>
+
+            </div>
+
+
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 background">
+                <article class="mf-section-0" id="mf-section-0">
+                    <p><b>חינוך לפסגות</b> היא עמותה ישראלית שמקדמת ומטפחת ילדים ובני נוער בעלי פוטנציאל למצוינות, המגיעים מהפריפריה החברתית והגאוגרפית בישראל.
+                    </p>
+                    <p>עמותת 'חינוך לפסגות' פועלת משנת 1999 למען צמצום פערים חברתיים, על ידי יצירת שוויון הזדמנויות לילדים ונוער בעלי פוטנציאל למצוינות מהפריפריה החברתית והגאוגרפית. העמותה מסייעת לאותם ילדים וילדות להגיע לפסגה ולממש את יכולותיהם – להצטיין בלימודים, להשתלב באקדמיה ולרכוש השכלה כללית ורחבה, להשתלב בחברה ולהתפתח כאזרחים תורמים וכמנהיגים בעתידעמותת 'חינוך לפסגות' מפעילה בשנת הפעילות תשע"ט <b>46</b> מרכזי מצוינות ברחבי הארץ, בהם לוקחים חלק כ-3,000 חניכים וחניכות וכ-500 בוגרים.
+                    </p>
+                    <p>לאורך שנות פעילותה, השפיעה העמותה באמצעות המודל החינוכי הייחודי שלה על למעלה מ– <b>30,000</b> מוטבים, בהם למעלה מ– <b>4,500</b> חניכים ובוגרים, למעלה מ-<b>4,000</b> סטודנטים-מדריכים מקבלי מלגות ממוסדות הלימוד השונים אשר מהווים הון אנושי לעמותה ומודל לחיקוי לחניכיה, למעלה מ-<b>2,000</b> מתנדבים, הורי החניכים, חבריהם לספסל הלימודים, הקהילה בה הם חיים, צוותי ההוראה בבתי הספר ורבים נוספים.
+                    </p>
+                    <p>העמותה מעניקה לחניכיה תוכנית הוליסטית חינוכית-חברתית <b>לאורך עשור, מכיתה ג' עד י"ב</b>, ולאחר מכן השתלבות <b>בתוכנית הבוגרים</b> המלווה אותם בחייהם הבוגרים באקדמיה, בשוק התעסוקה ועוד.
+                    </p>
+                    <p>חזון העמותה נותן מענה לסוגיה האסטרטגית של טיפוח ומיצוי ההון האנושי בפריפריה, לראייה כ- <b>500</b> בוגרים ובוגרות של התוכנית הם אזרחים מעורבים המשרתים בתפקידי איכות בצה"ל, בדרכם להשכלה גבוהה, כאשר חלקם כבר סיימו את לימודיהם ומועסקים בחברות מובילות במשק. בוגרי העמותה מהווים מודל לחיקוי עבור משפחותיהם, חבריהם וקהילתם, וממשיכים את השינוי במעגלים רחבים יותר.
+                    </p>
+                    <p>העמותה פועלת בשיתוף פעולה עם משרד החינוך - האגף לתלמידים מחוננים ומצטיינים, מחלקות החינוך ברשויות המקומיות, כ- 120 בתי ספר ברחבי הארץ, כ- 35 מוסדות אקדמיים, למעלה מ-30 קרנות ותורמים פרטיים ולמעלה מ-40 גופים עסקיים.
+                    </p>
+                </article>
+            </div>
+            <aside title="pics & vids" class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <video width="100%" controls>
+                    <source src="/images/educating.mp4" type="video/mp4">
+                </video>
+                <img src="../images/slide1.jpg" width="100%"><br><br>
+                <img src="../images/slide2.jpg" width="100%"><br><br>
+                <img src="../images/slide3.jpg" width="100%"><br><br>
+
+
+            </aside>
+        </div>
+    </div>
+
+    <!------------FOOTER--------------->
+    <footer class="footer-distributed">
+        <div class="footer-style">
+            <div class="footer-center">
+                <div>
+                    <a href="https://www.google.com/maps/place/%D7%97%D7%99%D7%93%D7%95%D7%A9%D7%99+%D7%94%D7%A8%D7%99%22%D7%9D+10,+%D7%AA%D7%9C+%D7%90%D7%91%D7%99%D7%91+%D7%99%D7%A4%D7%95%E2%80%AD/data=!4m2!3m1!1s0x151d4cb43ef7889b:0x359e8e22e0687a9f?ved=2ahUKEwjvtrbF7-jfAhUEZ1AKHc_aCW4Q8gEwAHoECAAQAQ" target="_blank"><i class="fa fa-map-marker"></i>
+                        <p><span>Khidushei ha-Rim St 10 </span> Tel-Aviv-Jaffa.
+                    </a>
+                </div>
+
+                <div>
+                    <a href="tel:03-6013601"><i class="fa fa-phone"></i>
+                        <p>03-6013601 </p>
+                    </a>
+                </div>
+
+                <div>
+                    <a href="mailto:info@e4e.org.il"><i class="fa fa-envelope"></i>
+                        <p>info@e4e.org.il </p>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-center">
+                <h3>Smart<span>edu</span></h3><br><br><br><br>
+                <p class="footer-company-name">All rights Reserved Smartedu &copy; 2018</p>
+            </div>
+            <div class="footer-right">
+                <p class="footer-company-about">
+                    <span>About Smartedu Team </span>
+                    Education is what remains after one has forgotten what one has learned in school this is why our team exsists
+                </p>
+                <div class="footer-icons">
+                    <a href="https://www.facebook.com/Educating4Excellence/" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/educating-for-excellence-%D7%97%D7%99%D7%A0%D7%95%D7%9A-%D7%9C%D7%A4%D7%A1%D7%92%D7%95%D7%AA-aa4a679b/" title="Not Vaild" target="_blank"><i class="fa fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+h1 {
+    text-align: center;
+    font-family: "Comic Sans MS";
+    color: burlywood
+}
+
+p {
+    font-size: 140%;
+    font-family: 'ariel';
+    letter-spacing: 1px;
+}
+
+form {}
+
+div.checkbox {
+    text-align: center;
+    direction: rtl;
+    position: relative;
+
+
+}
+
+div.form_design {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+
+}
+
+div.submit {
+    text-align: center;
+}
+
+div.one {
+    border: 2px solid black;
+    text-align: right;
+    padding-right: 10px;
+   
+}
+
+input {
+    text-align: center;
+    
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    font-size: 16px;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=reset] {
+    font-size: 16px;
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=number]:focus,
+input[type=date]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    /* Position the tooltip */
+    position: static;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
